@@ -1,5 +1,6 @@
 // Chess Board and Queens 
-// Author: 
+// Author:  Anshul Mehta
+// Question Definition: 
 #include <stdio.h>
 
 char size[8][9], cols[8], d1[15], d2[15];
