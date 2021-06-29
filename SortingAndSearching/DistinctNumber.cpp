@@ -17,5 +17,5 @@ int main()
         s.insert(x);
 
     }
-    cout << s.size() << endl;
+    cout << s.size() ;
 }
