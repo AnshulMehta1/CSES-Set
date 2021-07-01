@@ -12,10 +12,12 @@ const int mx=2e5;
 int main(){
     cin>>n>>m;
     set<arr<int,2>>s;
+//     Set of arrays 
     for (int i=0;i<n;i++){
         int a;
         cin>>a;
         s.insert({a,i});
+//         Set where price  of tickets are store
 
     }
 
@@ -25,7 +27,7 @@ int main(){
         auto it=s.lower_bound({t+1,0});
         if (it==s.begin()){
             cout<<"-1\n";
-
+// Set where max price of the Customers can pay
         }
         else{
             it--;
