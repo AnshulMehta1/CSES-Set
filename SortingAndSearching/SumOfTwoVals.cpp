@@ -15,7 +15,7 @@ int main(){
         cin>>a;
         if (mp.find(x-a)!=mp.end()){
             cout<<mp[x-a]+1<<" "<<i+1;
-            return ;
+            return 1;
         }
         mp[a]=i;
     }
