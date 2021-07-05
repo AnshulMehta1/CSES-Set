@@ -23,5 +23,5 @@ int main(){
 
 
     }
-    cout<<ans;
+    cout<<ans<<end1;
 }
