@@ -1,12 +1,4 @@
-/*
- ID: bqi3431
- PROG: ~
- LANG: C++11
- */
-
-#pragma GCC optimize ("O3")
-#pragma GCC target ("sse4")
-
+#include <iostream>
 #include <bits/stdc++.h>
 #include <ext/pb_ds/tree_policy.hpp>
 #include <ext/pb_ds/assoc_container.hpp>
@@ -16,8 +8,8 @@ using namespace std;
 using namespace __gnu_pbds;
 using namespace __gnu_cxx;
 
-typedef long long ll;
-typedef long double ld;
+#define ll long long 
+#define ld long double
 typedef complex<ld> cd;
 
 typedef pair<int, int> pi;
